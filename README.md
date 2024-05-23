@@ -24,14 +24,15 @@
     - One Theme List
 
 
+- Base Colour
+    - Hex colour of new theme
 - Current CSS theme
     - one theme list
     - localstorage
 - List of CSS themes
     - array of theme list
     - localstorage
-- Base Colour
-    - Hex colour of new theme
+
 
 
 ## Data
