@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Sketch } from '@uiw/react-color'
 import { useBaseColourGlobalData, useBaseColourGlobalDispatch } from "../contexts/baseColourContext";
 
 
@@ -17,9 +18,16 @@ export default function GeneratorPage() {
         setFormBaseColour(baseColourGlobal);
     }, [baseColourGlobal]);
 
+    useEffect(() => {
+        setBaseColourGlobal(formBaseColour);
+    }, [formBaseColour]);
+
     return (
         <div>
             {/* Base colour input form */}
+            <h1>{formBaseColour}</h1>
+            {/* <input type="color" name="" id="" /> */}
+            <Sketch color={formBaseColour} onChange={(colour) => setFormBaseColour(colour.hex)} />
 
             {/* CSS theme generator component */}
         </div>
