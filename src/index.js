@@ -14,8 +14,9 @@ root.render(
     <BrowserRouter>
       <BaseColourProvider>
         <CurrentThemeProvider>
-          <DarkModeProvider />
+          <DarkModeProvider>
           <App />
+          </DarkModeProvider>
         </CurrentThemeProvider>
       </BaseColourProvider>
     </BrowserRouter>    
