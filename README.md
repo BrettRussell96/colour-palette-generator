@@ -12,8 +12,7 @@
     - CSS generator available here
 - "/generator" : CSS generator page
     - CSS generator available here
-- "/generator/saved" : view list of saved themes
-    - reads localstorage
+
 
 
 ## Contexts

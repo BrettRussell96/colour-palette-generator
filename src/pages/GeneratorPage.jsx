@@ -4,7 +4,10 @@ import { Sketch } from "@uiw/react-color";
 import { useCurrentThemeData } from "../contexts/currentThemeContext";
 import { ColourBlock } from "../components/colour";
 import PureModal from 'react-pure-modal';
+import "../styles/GeneratorPage.css"
+import "../styles/PreviewCard.css"
 import 'react-pure-modal/dist/react-pure-modal.min.css';
+
 import { CssCodeExport } from "../components/CssCodeExport";
 import { PreviewCard } from "../components/PreviewComponent";
 

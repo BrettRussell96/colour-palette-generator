@@ -1,7 +1,11 @@
 .previewCard {
-    border-radius: 25px;
-
-    width: 20dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 14dvw;
+    width: 14dvw;
 
     padding: 2rem;
 }

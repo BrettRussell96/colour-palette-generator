@@ -7,3 +7,8 @@
 
     margin-bottom: 2rem;
 }
+
+.row .colourBlock {
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+}

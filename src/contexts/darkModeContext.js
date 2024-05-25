@@ -31,14 +31,10 @@ export function DarkModeProvider({children}) {
         // Find the body element
         let bodyElement = document.querySelector("body");
         // Find the styles on the body element
-        
-        // bodyElement.style.setProperty("--theme-background", colourToApply);
-
         let modeName = darkModeValue ? "dark" : "light";
         Object.keys(themes[modeName]).forEach(modeKey => {
                 bodyElement.style.setProperty(modeKey, themes[modeName][modeKey]);
-        // bodyElement.style.setProperty("--theme-text-color");
-        // Modify the variable on the styles of the body element
+
         }) 
     }, [darkModeValue])
 

@@ -22,13 +22,11 @@ export function BaseColourProvider({children}){
 	useEffect(() => {
 		// On component load, read from localstorage and set it to state 
 		setBaseColour(baseColourLocalStorage);
-	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	useEffect(() => {
 		// When baseColour updates, write the new value to localstorage 
 		setBaseColourLocalStorage(baseColour);
-	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [baseColour]);
 
 	return (

@@ -31,13 +31,11 @@ export function CurrentThemeProvider({children}){
 	useEffect(() => {
 		// On component load, read from localstorage and set it to state 
 		setCurrentTheme(currentThemeLocalStorage);
-	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	useEffect(() => {
 		// When baseColour updates, write the new value to localstorage 
 		setCurrentThemeLocalStorage(currentTheme);
-	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [currentTheme]);
 
 
