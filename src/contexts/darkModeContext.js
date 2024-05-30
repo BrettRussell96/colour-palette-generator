@@ -14,12 +14,12 @@ export function useDarkModeDispatch() {
 
 let themes = {
     dark: {
-        "--theme-background": "black",
-        "--theme-text-color": "white"
+        "--theme-background": "#333333",
+        "--theme-text-colour": "rgb(223, 221, 221)"
     },
     light: {
         "--theme-background": "white",
-        "--theme-text-color": "black"
+        "--theme-text-colour": "#111111"
     }
 }
 

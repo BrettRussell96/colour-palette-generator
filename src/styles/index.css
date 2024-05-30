@@ -15,6 +15,17 @@ code {
     monospace;
 }
 
+.custom-link {
+  color: rgb(82, 132, 179);
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.custom-link:hover {
+  color: rgb(139, 138, 138);
+}
+
 #root {
   display: flex;
   flex-direction: column;

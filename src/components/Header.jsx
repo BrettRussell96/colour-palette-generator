@@ -9,9 +9,8 @@ export default function Header() {
                 ColourAcademy
             </div>
             <nav id="headerNavbar">
-                <NavLink to={"/"}>Home</NavLink>
-                <NavLink to={"/generator"}>Generator</NavLink>
-                {/* <NavLink to={"/generator/saved"}>Saved Themes</NavLink> */}
+                <NavLink to={"/"} className="custom-navlink">Home</NavLink>
+                <NavLink to={"/generator"} className="custom-navlink">Generator</NavLink>
             </nav>
         </header>
     )
